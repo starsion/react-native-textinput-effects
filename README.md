@@ -275,5 +275,26 @@ const hideoInput = (
 );
 ```
 
+# ----- new change (by starsion) -----
+
+### Kaede
+
+* add image view
+* add TextInput placeholder
+
+``` js
+<Kaede
+    label={'xxx'}
+    placeholder={"xxxx"}//new
+    editable={true}
+    imageSource={xxx}//new
+    imageStyle ={xxx}//new
+    labelStyle={xxx}
+    inputStyle={xxx}
+    style={xxx}}
+    onChangeText={(value) => {xxx}}
+/>
+```
+
 ## Licence
 [MIT](http://opensource.org/licenses/mit-license.html)
